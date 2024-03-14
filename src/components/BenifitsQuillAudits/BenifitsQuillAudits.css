@@ -1,0 +1,104 @@
+.benifitsquillAudits-container{
+    width: 53.75rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.benifitsquillAudits-details-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.benifitsquillAudits-left-container{
+    padding-right:4.375rem;
+    width: 22.5rem;
+    border-right: 1px solid #E0E0E4;
+}
+
+.benifitsquillAudits-left-title{
+    color: #00000A;
+    line-height: 1.875rem;
+    font-size: 1.25rem;
+    background-color: #FFABC9;
+    font-weight: 700;
+}
+
+.benifitsquillAudits-left-description{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #00000A;
+}
+
+.benifitsquillAudits-right-container{
+    padding-left:4.375rem;
+    width: 22.5rem;
+}
+
+.benifitsquillAudits-right-title{
+    color: #00000A;
+    line-height: 1.875rem;
+    font-size: 1.25rem;
+    background-color: #ABCDFF;
+    font-weight: 700;
+}
+
+.benifitsquillAudits-right-description{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #00000A;
+}
+
+.benifitsquillAudits-subtitle{
+    line-height: 2.438rem;
+    font-size: 2.25rem;
+    color: #0E3088;
+    width: 43.25rem;
+    margin: 3rem auto 2rem auto;
+}
+
+.benifitsquillAudits-btn{
+    background: linear-gradient(to right, #4D3DEE, #457BF2, #5E80F8);
+    margin: auto;
+    color: #fff;
+    width: 12rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+    .benifitsquillAudits-container{
+        width: auto;
+        /* margin: auto;
+        display: flex;
+        flex-direction: column; */
+    }
+    .benifitsquillAudits-details-container{
+        /* display: flex; */
+        flex-direction: column;
+        /* margin-top: 4rem;
+        justify-content: center;
+        align-items: center; */
+    }
+    .benifitsquillAudits-left-container{
+        padding-right:0;
+        width: 22.5rem;
+        border-right: none;
+    }
+    .benifitsquillAudits-right-container{
+        padding-left:0;
+        width: 22.5rem;
+    }
+    .benifitsquillAudits-subtitle{
+        line-height: 2rem;
+        font-size: 1.5rem;
+        color: #0E3088;
+        width: auto;
+        margin: 3rem auto 2rem auto;
+        text-align: center;
+    }
+}

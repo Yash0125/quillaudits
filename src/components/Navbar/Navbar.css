@@ -1,0 +1,86 @@
+.navbar-container {
+  height: 4.875rem;
+  width: 80vw;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: content-box;
+  border-bottom: 1px solid #ccc
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logo-image {
+  width: 2.813rem;
+  height: 2.688rem;
+}
+
+.navbar-title {
+    line-height: 1.375rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 0.5rem;
+}
+
+.navigation-details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-details-container li{
+    color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+}
+
+.navigation-dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-dropdown p{
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.nav-icon{
+   margin-left: 5px;
+   margin-top: 3px;
+}
+
+.button {
+    background-image: linear-gradient(to right, #7184FD, #3F7AF0, #4F37EE);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  .button:hover {
+    background-image: linear-gradient(to right, #3F7AF0, #7184FD, #4F37EE);
+  }
+  
+  .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

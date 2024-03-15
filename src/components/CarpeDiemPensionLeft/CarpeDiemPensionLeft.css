@@ -1,5 +1,6 @@
 .carpediempensionleft-container {
   width: 47.5rem;
+  margin: auto;
 }
 
 .carpediempensionleft-description {
@@ -105,4 +106,12 @@
 
 .carpediem-impact-x-link:visited {
   color: purple;
+}
+
+@media screen and (max-width: 1200px) {
+  .carpediempensionleft-container {
+    width: 47.5rem;
+    margin: 5rem auto auto auto;
+
+  }
 }

@@ -4,3 +4,19 @@
     display: flex;
     flex-direction: row;
 }
+
+.carpediempension-mobile-container{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .carpediempension-container{
+        display: none;
+    }
+
+    .carpediempension-mobile-container{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}

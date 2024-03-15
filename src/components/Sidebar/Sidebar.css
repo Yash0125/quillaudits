@@ -8,7 +8,7 @@
     box-shadow: 0px 3px 12px 1px rgba(85, 128, 219, 0.36);
     border-radius: 0.375rem;
     position: sticky;
-    top: 1rem;
+    top: 3rem;
 }
 
 .sidebar-title{
@@ -34,4 +34,12 @@
     color: #808080;
     font-weight: 400;
     margin: 1.5rem 0 0 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+.sidebar-container{
+    position: relative;
+    margin: auto;
+}
+
 }

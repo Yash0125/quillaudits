@@ -1,0 +1,108 @@
+.carpediempensionleft-container {
+  width: 47.5rem;
+}
+
+.carpediempensionleft-description {
+  line-height: 1.688rem;
+  font-size: 1.125rem;
+  color: #00000a;
+  font-weight: 400;
+}
+
+.carpediem-flexible-container {
+}
+
+.carpediem-title {
+  font-size: 2.125rem;
+  line-height: 2.656rem;
+  color: #00000a;
+}
+
+.carpediem-flexible-img {
+  width: 47.375rem;
+  height: 23.313rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.carpediem-challenge-img {
+  height: 23.125rem;
+  width: 40rem;
+  margin: 1rem 0;
+}
+
+.carpediem-journey-subtitle {
+  line-height: 1.688rem;
+  font-size: 1.5rem;
+  color: #00000a;
+}
+
+.carpediem-journey-list {
+  line-height: 1.688rem;
+  font-size: 1.125rem;
+  color: #00000a;
+  font-weight: 400;
+  margin: 0.6rem 0;
+}
+
+.carpediem-journey-sublist {
+  line-height: 1.688rem;
+  font-size: 1.125rem;
+  color: #00000a;
+  font-weight: 400;
+  margin: 0.6rem 0;
+}
+
+.carpediem-journey-sublist span {
+  line-height: 1.688rem;
+  font-size: 1.125rem;
+  color: #00000a;
+  font-weight: 500;
+  margin: 0.6rem 0;
+  font-style: italic;
+}
+
+.carpediem-strategy-subtitle {
+  line-height: 1.688rem;
+  font-size: 1.125rem;
+  color: #00000a;
+  font-weight: 600;
+  margin: 0.6rem 0;
+}
+
+.carpediem-strategy-list {
+  list-style-type: lower-alpha;
+  line-height: 1.688rem;
+  font-size: 1.125rem;
+  color: #00000a;
+  font-weight: 400;
+  margin: 0.6rem 0;
+}
+
+.carpediem-impact-x-title {
+  line-height: 1.688rem;
+  font-size: 1.125rem;
+  color: #00000a;
+  font-weight: 600;
+}
+
+.carpediem-impact-x-link {
+  line-height: 1.688rem;
+  font-size: 1.125rem;
+  color: #00000a;
+  font-weight: 400;
+  color: blue;
+  margin: 0.6rem 0;
+}
+
+.carpediem-impact-x-link:hover {
+  color: red;
+}
+
+.carpediem-impact-x-link:active {
+  color: green;
+}
+
+.carpediem-impact-x-link:visited {
+  color: purple;
+}

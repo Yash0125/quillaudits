@@ -3,6 +3,8 @@ import './Home.css'
 import Header from '../../components/Header/Header';
 import BenifitsQuillAudits from '../../components/BenifitsQuillAudits/BenifitsQuillAudits';
 import CarpeDiemPension from '../../components/CarpeDiemPension/CarpeDiemPension';
+import Footer from '../../components/Footer/Footer.';
+import Newsletter from '../../components/Newsletter/Newsletter';
 
 const Home = () => {
   return (
@@ -10,6 +12,8 @@ const Home = () => {
       <Header/>
       <BenifitsQuillAudits/>
       <CarpeDiemPension/>
+      <Newsletter/>
+      <Footer/>
     </div>
   )
 }

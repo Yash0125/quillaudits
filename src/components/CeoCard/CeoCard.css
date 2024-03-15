@@ -1,0 +1,87 @@
+.ceocard-container {
+  height: 26.063rem;
+  width: 38.063rem;
+  box-shadow: 0px 3.2px 3.2px 0px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.ceocard-top-container {
+  height: 9.813rem;
+  background: linear-gradient(
+    90deg,
+    #2b4d93 0%,
+    #0e205b 25%,
+    #162867 50%,
+    #323a87 100%
+  );
+}
+
+.ceocard-top-img{
+    /* margin: 1rem; */
+    padding: 1rem;
+}
+
+.ceocard-top-title{
+    font-size: 1.8rem;
+    line-height: 2.601rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+
+}
+
+.ceocard-top-descrption{
+    line-height: 1.734rem;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.ceocard-top-details-container{
+    height: 4.688rem;
+    width: 16rem;
+    margin-left: 4rem;
+}
+
+.Ceo-img{
+    position: absolute;
+    height: 11.375rem;
+    width: 11.375rem;
+    left: 22rem;
+    top: 2.875rem;
+}
+
+.ceocard-bottom-container{
+    padding-left:4rem ;
+}
+
+.star-container{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.star-img{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: 0.6rem;
+}
+
+.ceocard-bottom-descrption{
+    padding-right: 5rem;
+    line-height: 1.445rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+.ceobottomvector-img{
+    padding: 1rem;
+}
+
+.ceobottomvector-img-container{
+    display: flex;
+    justify-content: end;
+}
+/* 9.813 */

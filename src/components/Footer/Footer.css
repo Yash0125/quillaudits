@@ -1,0 +1,241 @@
+.footer-container {
+  background: linear-gradient(
+    90deg,
+    #112056,
+    #0f1e53,
+    #0e1c50,
+    #0c1a4d,
+    #0b184a,
+    #091647,
+    #071444,
+    #061241
+  );
+  height: 60rem;
+  padding: 1rem 3rem;
+}
+
+.footer-logo-container {
+  width: 18.375rem;
+  margin-top: 1rem;
+}
+
+.quillauditslogo {
+  width: 18.375rem;
+  height: 3.625rem;
+}
+
+.footer-logo-description {
+  margin: 0;
+  padding: 0;
+  color: #eaeaea;
+  margin-left: 3rem;
+  margin-top: -0.7rem;
+  font-weight: 400;
+  font-size: 16.17px;
+  line-height: 23.37px;
+  text-align: right;
+}
+
+.footer-details-container {
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 3rem; */
+  margin: 3rem 5rem;
+}
+
+.footer-left-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-left-about-title {
+  font-size: 20.79px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid #2d83ee;
+  width: 170px;
+}
+
+.footer-left-about-details-container {
+  margin-top: 1rem;
+}
+.footer-left-about-details-container p {
+  margin: 0;
+  padding: 0;
+  color: #f1f1f1;
+  font-size: 16.17px;
+  font-weight: 500;
+  line-height: 23.37px;
+  margin: 0.5rem auto;
+}
+
+.footer-left-about-contactus-container {
+  margin-top: 2rem;
+}
+
+.footer-left-about-contactus-title {
+  font-size: 18.48px;
+  line-height: 26.7px;
+  font-weight: 500;
+  color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-left-about-contactus-mail-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  align-items: end;
+}
+
+.footer-left-about-contactus-mail-icon {
+  width: 23.1px;
+  height: 16.17px;
+  color: #dddddd;
+}
+
+.footer-left-about-contactus-mail {
+  margin: 0;
+  padding: 0;
+  color: #f1f1f1;
+  letter-spacing: 5%;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.footer-left-about-location-container {
+  margin-top: 2rem;
+}
+.footer-left-about-location-top-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.footer-left-about-location-top-title {
+  font-size: 18.48px;
+  line-height: 26.7px;
+  font-weight: 500;
+  color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  margin-left: 8px;
+}
+
+.footer-left-about-location-icon {
+  height: 20.79px;
+  width: 16.17px;
+  color: #dddddd;
+}
+
+.footer-left-about-location-details-container {
+  margin-top: 1rem;
+}
+
+.footer-left-about-location-description {
+  font-size: 18.48px;
+  line-height: 26.7px;
+  font-weight: 400;
+  color: #f1f1f1;
+  margin: 0;
+}
+
+.footer-left-audit-services-title {
+  font-size: 20.79px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid #2d83ee;
+  width: 140px;
+}
+
+.footer-left-audit-services-container {
+  margin-left: 5rem;
+}
+
+.footer-left-audit-services-details-container {
+  margin-top: 1rem;
+}
+
+.footer-left-audit-services-description-container {
+  line-height: 23.37px;
+  font-weight: 500;
+  font-size: 16.17px;
+  color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  margin-top: 0.7rem;
+}
+
+.footer-right-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-right-top-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-right-ecosystem-title {
+  font-size: 20.79px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid #2d83ee;
+  width: 150px;
+  /* margin-left: 3rem; */
+}
+
+.footer-right-top-ecosystem-container {
+  margin-left: 5rem;
+}
+
+.footer-right-other-services-container {
+  margin-left: 5rem;
+}
+
+.footer-other-services-title {
+  font-size: 20.79px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid #2d83ee;
+  width: 140px;
+}
+
+.footer-right-quick-links-container{
+    margin-left: 5rem;
+}
+.footer-other-quick-links-title{
+    font-size: 20.79px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid #2d83ee;
+  width: 140px;
+}
+
+.footer-left-quick-links-span{
+    line-height: 20.03px;
+    font-size: 13.86px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2D83EE;
+    padding: 4px;
+    border-radius: 4.62px;
+}
+

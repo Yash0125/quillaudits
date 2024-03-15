@@ -3,6 +3,7 @@
   width: 38.063rem;
   box-shadow: 0px 3.2px 3.2px 0px rgba(0, 0, 0, 0.4);
   position: relative;
+  margin-top: 6rem;
 }
 
 .ceocard-top-container {
@@ -17,7 +18,6 @@
 }
 
 .ceocard-top-img{
-    /* margin: 1rem; */
     padding: 1rem;
 }
 
@@ -84,4 +84,3 @@
     display: flex;
     justify-content: end;
 }
-/* 9.813 */

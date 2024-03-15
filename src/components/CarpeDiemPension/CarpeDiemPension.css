@@ -1,0 +1,6 @@
+.carpediempension-container{
+    width: 75rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}

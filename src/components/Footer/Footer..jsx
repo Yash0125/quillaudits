@@ -2,9 +2,14 @@ import React from "react";
 import "./Footer.css";
 import QuillAuditsLogo from "./../../assets/QuillAuditsLogo.png";
 import { MdMail } from "react-icons/md";
-import { FaTelegramPlane } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
 import OurProgrammes from "../OurProgrammes/OurProgrammes";
+import TelanganaGovtImg from "./../../assets/TelanganaGovt.png";
+import DefiMemberImg from "./../../assets/DefiMember.png";
+import { RiTwitterXLine } from "react-icons/ri";
+import { FaLinkedin, FaTelegramPlane, FaDiscord } from "react-icons/fa";
+import { FaRedditAlien, FaMedium, FaLocationDot } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io5";
+// import { FaMedium } from "react-icons/fa6";
 
 const Footer = () => {
   const AuditServices = [
@@ -148,7 +153,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer-right-quick-links-container">
-              <h3 className="footer-other-quick-links-title">Other Services</h3>
+              <h3 className="footer-other-quick-links-title">Quick Links</h3>
               <p className="footer-left-audit-services-description-container">
                 Pricing
               </p>
@@ -171,14 +176,43 @@ const Footer = () => {
                 Clients
               </p>
               <p className="footer-left-audit-services-description-container">
-                Careers <span className="footer-left-quick-links-span">Hiring</span>
+                Careers{" "}
+                <span className="footer-left-quick-links-span">Hiring</span>
               </p>
             </div>
           </div>
           <div className="footer-right-bottom-container">
-            <OurProgrammes/>
+            <OurProgrammes />
           </div>
         </div>
+      </div>
+      <div className="footer-icon-img-container">
+        <div className="footer-img-container">
+          <img
+            className="defi-member-img"
+            src={DefiMemberImg}
+            alt="DefiMember-img"
+          />
+          <img
+            className="telangana-govt-img"
+            src={TelanganaGovtImg}
+            alt="TelanganaGovtMember-img"
+          />
+        </div>
+        <div className="footer-icon-container">
+          <RiTwitterXLine className="footer-icon" />
+          <FaLinkedin className="footer-icon" />
+          <FaTelegramPlane className="footer-icon" />
+          <FaRedditAlien className="footer-icon" />
+          <FaMedium className="footer-icon" />
+          <FaDiscord className="footer-icon" />
+          <IoLogoYoutube className="footer-icon" />
+        </div>
+      </div>
+
+      <div className="footer-copyright-privacy-container">
+        <h6 className="footer-copyright-text">All Rights Reserved. © Copyright 2023. QuillAudits - LLC</h6>
+        <h6 className="footer-copyright-text">Privacy Policy</h6>
       </div>
     </div>
   );

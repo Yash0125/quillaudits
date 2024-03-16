@@ -46,6 +46,7 @@
 .footer-left-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .footer-left-about-title {
@@ -182,6 +183,7 @@
 .footer-right-top-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .footer-right-ecosystem-title {
@@ -237,4 +239,150 @@
   background-color: #2d83ee;
   padding: 4px;
   border-radius: 4.62px;
+}
+
+.footer-icon-img-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 4rem 0 4rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.defi-member-img{
+  width: 12.5rem;
+  height: 3.75rem;
+}
+
+.telangana-govt-img{
+  width: 12.5rem;
+  height: 3.75rem;
+  margin-left: 3rem;
+}
+
+.footer-icon{
+  color: #DDDDDD;
+  width: 23.1px;
+  height: 23.1px;
+  padding-left: 2.4rem;
+}
+
+.footer-copyright-privacy-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 4rem;
+  border-top: 2.31px solid #FFFFFF;
+  margin-top: 4rem;
+}
+
+.footer-copyright-text{
+  font-size: 13.86px;
+  line-height: 20.03px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1570px) {
+  .footer-container {
+    background: linear-gradient(
+      90deg,
+      #112056,
+      #0f1e53,
+      #0e1c50,
+      #0c1a4d,
+      #0b184a,
+      #091647,
+      #071444,
+      #061241
+    );
+    height: auto;
+    padding: 1rem auto;
+  }
+
+  .footer-left-audit-services-container {
+    margin-left: 0;
+    /* margin-top: 1rem; */
+  }
+}
+
+@media screen and (max-width: 1488px) {
+  .footer-left-audit-services-container {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 996px) {
+  .footer-right-other-services-container {
+    /* margin-left: 0; */
+    margin-top: 1rem;
+  }
+
+  .footer-right-quick-links-container {
+    /* margin-left: 5rem; */
+    margin-top: 1rem;
+
+  }
+  .footer-right-bottom-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:1103px) {
+  .footer-icon-container{
+    margin-top: 1rem;
+  }
+  
+  .footer-icon-img-container{
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+@media screen and (max-width:667px) {
+  .defi-member-img{
+    width: 12.5rem;
+    height: 3.75rem;
+  }
+  
+  .telangana-govt-img{
+    width: 12.5rem;
+    height: 3.75rem;
+    margin-left: 0;
+  }
+  .footer-img-container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-details-container {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 3rem; */
+    margin: 3rem 4rem;
+  }
+  .footer-left-container {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    justify-content: center;
+    align-items: left;
+  }
+.footer-right-top-container {
+  justify-content: center;
+  align-items: left;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.footer-right-top-ecosystem-container,
+.footer-right-other-services-container,
+.footer-right-quick-links-container {
+  justify-content: center!important;
+  align-items: left;
+}
 }

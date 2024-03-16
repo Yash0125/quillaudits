@@ -4,6 +4,7 @@ import QuillAuditsLogo from "./../../assets/QuillAuditsLogo.png";
 import { MdMail } from "react-icons/md";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import OurProgrammes from "../OurProgrammes/OurProgrammes";
 
 const Footer = () => {
   const AuditServices = [
@@ -174,7 +175,9 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="footer-right-bottom-container"></div>
+          <div className="footer-right-bottom-container">
+            <OurProgrammes/>
+          </div>
         </div>
       </div>
     </div>

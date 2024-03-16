@@ -1,45 +1,43 @@
-.sidebar-container{
-    width: 22rem;
-    height: 9.375rem;
-    border: 1px solid;
-    border-image-source: linear-gradient(180deg, #7184FD 0%, #2D83EE 100%);
-    border-image-slice: 1;
-    margin-left: 4rem;
-    box-shadow: 0px 3px 12px 1px rgba(85, 128, 219, 0.36);
-    border-radius: 0.375rem;
-    position: sticky;
-    top: 3rem;
+.sidebar-container {
+  width: 22rem;
+  height: 9.375rem;
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #7184fd 0%, #2d83ee 100%);
+  border-image-slice: 1;
+  margin-left: 4rem;
+  box-shadow: 0px 3px 12px 1px rgba(85, 128, 219, 0.36);
+  border-radius: 0.375rem;
+  position: sticky;
+  top: 3rem;
 }
 
-.sidebar-title{
-    font-size: 1.313rem;
-    font-size: 0.875rem;
-    color: #808080;
-    font-weight: 400;
-    margin: 0.5rem 0 0 1.5rem;
+.sidebar-title {
+  font-size: 1.313rem;
+  font-size: 0.875rem;
+  color: #808080;
+  font-weight: 400;
+  margin: 0.5rem 0 0 1.5rem;
 }
 
-.sidebar-subtitle{
-    color: #00000A;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-weight: 500;
-    margin: 0 0 0 1.5rem;
-
+.sidebar-subtitle {
+  color: #00000a;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  margin: 0 0 0 1.5rem;
 }
 
-.sidebar-chain{
-    font-size: 1.313rem;
-    font-size: 0.875rem;
-    color: #808080;
-    font-weight: 400;
-    margin: 1.5rem 0 0 1.5rem;
+.sidebar-chain {
+  font-size: 1.313rem;
+  font-size: 0.875rem;
+  color: #808080;
+  font-weight: 400;
+  margin: 1.5rem 0 0 1.5rem;
 }
 
 @media screen and (max-width: 1200px) {
-.sidebar-container{
+  .sidebar-container {
     position: relative;
     margin: auto;
-}
-
+  }
 }

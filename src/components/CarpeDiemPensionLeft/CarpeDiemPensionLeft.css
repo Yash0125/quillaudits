@@ -112,6 +112,85 @@
   .carpediempensionleft-container {
     width: 47.5rem;
     margin: 5rem auto auto auto;
+    
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .carpediem-flexible-img {
+    width: 90%;
+    /* height: 23.313rem; */
+    /* border-radius: 0.5rem; */
+    margin-left: 5%;
+  }
+  .carpediem-challenge-img {
+    /* height: 23.125rem; */
+    width: 90%;
+
+    /* width: 40rem; */
+    margin-left: 5%;
+    margin-top: 1rem;
+  }
+  /* added line  */
+  /* .carpediempensionleft-description {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .carpediem-title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .carpediem-journey-subtitle {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .carpediem-journey-list,
+  .carpediem-journey-sublist,
+  .carpediem-strategy-subtitle,
+  .carpediem-strategy-list,
+  .carpediem-impact-x-title,
+  .carpediem-impact-x-link {
+    font-size: 1rem;
+    line-height: 1.5;
+  } */
+  .carpediempensionleft-container {
+    width: auto;
+    margin: 5rem 1rem auto 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .carpediempensionleft-container {
+    width: 20rem;
+    /* margin: 5rem 1rem auto 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    margin: auto;
+  }
+  .carpediem-impact-container{
+    width: 20rem;
+
+  }
+  .carpediem-impact-x-title {
+    font-size: 14px;
+    width: 18rem; /* Adjust font size */
+    
+  }
+
+  .carpediem-impact-x-link {
+    font-size: 10px; /* Adjust font size */
+    display: block; /* Display link as block to break into a new line */
+    margin-top: 5px; /* Add some space between the title and the link */
+    text-align: justify;
   }
 }

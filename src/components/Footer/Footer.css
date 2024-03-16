@@ -271,7 +271,7 @@
 .footer-copyright-privacy-container{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
   padding: 0 4rem;
   border-top: 2.31px solid #FFFFFF;
@@ -283,6 +283,7 @@
   line-height: 20.03px;
   font-weight: 400;
   color: #FFFFFF;
+  margin: 1rem;
 }
 
 @media screen and (max-width: 1570px) {
@@ -367,14 +368,12 @@
     margin: 3rem 4rem;
   }
   .footer-left-container {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
-    justify-content: center;
-    align-items: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 .footer-right-top-container {
-  justify-content: center;
+  justify-content: left;
   align-items: left;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -383,6 +382,51 @@
 .footer-right-other-services-container,
 .footer-right-quick-links-container {
   justify-content: center!important;
+  align-items: center;
+  margin-left: 0;
+}
+.footer-right-top-ecosystem-container{
+  margin-left: 0;
+}
+.footer-right-bottom-container{
+  display: flex;
+  justify-content: center;
   align-items: left;
 }
+}
+
+@media screen and (max-width:500px) {
+  .footer-img-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .defi-member-img{
+    width: 12.5rem;
+    height: 3.75rem;
+  }
+  
+  .telangana-govt-img{
+    width: 12.5rem;
+    height: 3.75rem;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .footer-logo-container {
+    width: 15rem;
+    margin-top: 1rem;
+  }
+  
+  .quillauditslogo {
+    width: 12rem;
+    height: 3.625rem;
+  }
+  
+  .footer-logo-description {
+    margin-left: 19px;
+    margin-top: -1rem;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  }
 }
